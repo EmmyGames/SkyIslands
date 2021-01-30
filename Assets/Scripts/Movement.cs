@@ -7,7 +7,7 @@ public class Movement : MonoBehaviour
 {
     //Components
     private CharacterController _character;
-
+    private AudioManager _audioManager;
     private const float Gravity = -20f;
 
     //Movement
@@ -31,10 +31,12 @@ public class Movement : MonoBehaviour
 
     //Used for gravity calculation
     private Vector3 _velocity = Vector3.zero;
+    private bool isLanding = false;
 
     private void Start()
     {
         _character = GetComponent<CharacterController>();
+        _audioManager = GetComponent<AudioManager>();
     }
 
     public void EntityMovement(bool isGrounded, bool isSprinting, bool isJumping, Transform lookDirTransform, float startRotation, Vector3 direction)
@@ -49,6 +51,11 @@ public class Movement : MonoBehaviour
 
         if (isGrounded && _velocity.y < 0f)
         {
+            if (isLanding)
+            {
+                _audioManager.PlaySound("land");
+                isLanding = false;
+            }
             //Reset the velocity that it had accumulated while on the ground
             _velocity.y = -2f;
         }
@@ -56,6 +63,7 @@ public class Movement : MonoBehaviour
         //if not grounded (or most likely jumping), change movement
         if (!isGrounded)
         {
+            isLanding = true;
             _character.stepOffset = 0f;
             
             _targetAngle = lookDirTransform.eulerAngles.y - startRotation;
@@ -90,6 +98,7 @@ public class Movement : MonoBehaviour
         //Player can jump smaller amounts by letting go of space
         if (isJumping && isGrounded)
         {
+            _audioManager.PlaySound("jump");
             _velocity.y = Mathf.Sqrt(jumpHeight * -2f * Gravity);
         }
 

@@ -12,6 +12,8 @@ public class PortalController : MonoBehaviour, IInteractable
     public Image interactImage;
     public GameObject thePlayer;
     private Vector3 offset = new Vector3(0, 1.08f, 0);
+    public AudioManager audioManager;
+    
     private void Start()
     {
         interactImage.enabled = false;
@@ -53,7 +55,10 @@ public class PortalController : MonoBehaviour, IInteractable
             {
                 if (InventoryScript.inventory[i].id == useItem.id)
                 {
+                    audioManager.PlaySound("interact");
                     thePlayer.transform.position = teleportTo.transform.position + offset;
+                    //play portal sound
+                    audioManager.PlaySound("teleport");
                 }
             }
         }
