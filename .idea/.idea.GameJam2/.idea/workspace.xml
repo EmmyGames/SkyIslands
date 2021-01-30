@@ -20,13 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c28c8691-9f2c-4552-a3cd-a54411f2c742" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJam2/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameJam2/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJam2/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameJam2/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJam2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameJam2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Erick Test.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Erick Test.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DestroyOnInteract.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DestroyOnInteract.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Item.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Item.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Yellow Key.asset" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Yellow Key.asset.meta" beforeDir="false" />
     </list>
@@ -104,7 +98,7 @@
       <option name="presentableId" value="Default" />
       <updated>1611971945122</updated>
       <workItem from="1611971955419" duration="5363000" />
-      <workItem from="1612034049615" duration="435000" />
+      <workItem from="1612034049615" duration="1127000" />
     </task>
     <servers />
   </component>
