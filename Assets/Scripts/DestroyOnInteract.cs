@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class DestroyOnInteract : MonoBehaviour, IInteractable
 {
+    public Item item;
     public float MaxRange
     {
         get { return maxRange; }
@@ -18,6 +19,7 @@ public class DestroyOnInteract : MonoBehaviour, IInteractable
 
     public void OnInteract()
     {
+        item.AddItem(item);
         Destroy(gameObject);
     }
 

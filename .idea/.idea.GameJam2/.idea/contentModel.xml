@@ -6,17 +6,28 @@
     <e p="D:\Documents - data drive\GitHub\Repositories\GameJam2" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Art" t="Include">
+          <e p="Castle Pack" t="Include">
+            <e p="Components" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="LightFlicker.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
         <e p="Scripts" t="Include">
           <e p="CameraController.cs" t="Include" />
           <e p="CameraRaycasting.cs" t="Include" />
           <e p="DestroyOnInteract.cs" t="Include" />
           <e p="IInteractable.cs" t="Include" />
-          <e p="Interactable.cs" t="Include" />
+          <e p="InventoryScript.cs" t="Include" />
+          <e p="Item.cs" t="Include" />
           <e p="Movement.cs" t="Include" />
           <e p="PlayerCollision.cs" t="Include" />
           <e p="PlayerInput.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
           <e p="PlayerScript.cs" t="Include" />
+          <e p="SkyboxRotate.cs" t="Include" />
         </e>
       </e>
       <e p="GameJam2.sln" t="IncludeFlat" />
