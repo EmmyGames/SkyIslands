@@ -14,7 +14,7 @@ public class PortalController : MonoBehaviour, IInteractable
     private Vector3 offset = new Vector3(0, 1.08f, 0);
     private void Start()
     {
-        Debug.Log("script here");
+        interactImage.enabled = false;
     }
 
     private void OnTriggerEnter(Collider other)
@@ -27,7 +27,6 @@ public class PortalController : MonoBehaviour, IInteractable
 
     private void OnTriggerExit(Collider other)
     {
-        Debug.Log(other.gameObject.tag);
         if (other.gameObject.CompareTag("Player"))
         {
             canTeleport = false;
