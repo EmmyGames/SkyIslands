@@ -2,11 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.UI;
 
-
-[CreateAssetMenu(fileName = "New Ite", menuName = "Item")]
+[CreateAssetMenu(fileName = "New Item", menuName = "Item")]
 public class Item : ScriptableObject
 {
+    //public Sprite keySprite;
     public int id;
     public int quantity;
     
@@ -19,6 +20,7 @@ public class Item : ScriptableObject
             return;
         }
         InventoryScript.inventory.Add(newItem);
+        //display item to screen or enable image
         Debug.Log("Added " + newItem + " to inventory");
     }
 
@@ -31,5 +33,10 @@ public class Item : ScriptableObject
                 InventoryScript.inventory.RemoveAt(i);
             }
         }
+    }
+
+    public void DisplayItem(Image image)
+    {
+        image.enabled = true;
     }
 }

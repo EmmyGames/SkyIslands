@@ -16,8 +16,8 @@ public class CameraController : MonoBehaviour
         xRotation -= mouseY;
 
         //Cap look up/down look direction
-        if (xRotation > 40f)
-            xRotation = 40;
+        if (xRotation > 70f)
+            xRotation = 70;
         else if (xRotation < -90)
             xRotation = -90;
         

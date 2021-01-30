@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3a3f526ef7db3b6459c3070dfbcbf64f, type: 3}
-  m_Name: Yellow Key
+  m_Name: Green Key
   m_EditorClassIdentifier: 
-  id: 1
+  id: 2
   quantity: 0

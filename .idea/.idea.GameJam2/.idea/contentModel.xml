@@ -18,6 +18,7 @@
         <e p="Scripts" t="Include">
           <e p="CameraController.cs" t="Include" />
           <e p="CameraRaycasting.cs" t="Include" />
+          <e p="ChestOnInteract.cs" t="Include" />
           <e p="DestroyOnInteract.cs" t="Include" />
           <e p="IInteractable.cs" t="Include" />
           <e p="InventoryScript.cs" t="Include" />
