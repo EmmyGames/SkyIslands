@@ -20,9 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c28c8691-9f2c-4552-a3cd-a54411f2c742" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJam2/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameJam2/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJam2/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameJam2/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJam2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameJam2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Erick Test.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Erick Test.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Yellow Key.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Yellow Key.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ChestOnInteract.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ChestOnInteract.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +39,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Item.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraRaycasting.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/PortalController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/InventoryScript.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -53,8 +58,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Item.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DestroyOnInteract.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BlueChestInteract.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ChestOnInteract.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ChestOnInteract.cs" />
+        <option value="$PROJECT_DIR$/Assets/PortalController.cs" />
       </list>
     </option>
   </component>
@@ -98,7 +104,7 @@
       <option name="presentableId" value="Default" />
       <updated>1611971945122</updated>
       <workItem from="1611971955419" duration="5363000" />
-      <workItem from="1612034049615" duration="1127000" />
+      <workItem from="1612034049615" duration="6079000" />
     </task>
     <servers />
   </component>

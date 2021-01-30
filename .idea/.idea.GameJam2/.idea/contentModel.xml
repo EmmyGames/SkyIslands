@@ -15,6 +15,7 @@
             </e>
           </e>
         </e>
+        <e p="PortalController.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="CameraController.cs" t="Include" />
           <e p="CameraRaycasting.cs" t="Include" />

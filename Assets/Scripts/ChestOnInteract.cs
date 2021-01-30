@@ -9,7 +9,7 @@ public class ChestOnInteract : MonoBehaviour, IInteractable
     public Image interactImage;
     public Image getItemImage;
     public Item getItem;
-    public Item openItem;
+    public Item useItem;
     public bool interactable = true;
     
     private void Start()
@@ -32,10 +32,9 @@ public class ChestOnInteract : MonoBehaviour, IInteractable
 
     public void OnInteract()
     {
-        Debug.Log("interacted");
         for(var i = 0; i < InventoryScript.inventory.Count; i++)
         {
-            if (interactable && InventoryScript.inventory[i].id == openItem.id)
+            if (interactable && InventoryScript.inventory[i].id == useItem.id)
             {
                 getItem.AddItem(getItem);
                 getItem.DisplayItem(getItemImage);
