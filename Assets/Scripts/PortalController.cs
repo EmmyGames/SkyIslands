@@ -20,6 +20,18 @@ public class PortalController : MonoBehaviour, IInteractable
         interactImage.enabled = false;
     }
 
+    private void Update()
+    {
+        if (canTeleport)
+        {
+            if (Input.GetButtonDown("Use"))
+            {
+                OnInteract();
+            }
+            interactImage.enabled = true;
+        }
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Player"))
@@ -33,6 +45,8 @@ public class PortalController : MonoBehaviour, IInteractable
         if (other.gameObject.CompareTag("Player"))
         {
             canTeleport = false;
+            interactImage.enabled = false;
+            needItemImage.enabled = false;
         }
     }
     
@@ -41,39 +55,31 @@ public class PortalController : MonoBehaviour, IInteractable
         get { return maxRange; }
     }
 
-    private const float maxRange = 30f;
+    private const float maxRange = 0f;
     
     public void OnStartHover()
     {
-        if (canTeleport)
-        {
-            interactImage.enabled = true;
-        }
+        
     }
 
     public void OnInteract()
     {
-        if (canTeleport)
+        foreach (var t in InventoryScript.inventory)
         {
-            for (var i = 0; i < InventoryScript.inventory.Count; i++)
+            if (t.id == useItem.id)
             {
-                if (InventoryScript.inventory[i].id == useItem.id)
-                {
-                    audioManager.PlaySound("interact");
-                    thePlayer.transform.position = teleportTo.transform.position + offset;
-                    //play portal sound
-                    audioManager.PlaySound("teleport");
-                    return;
-                }
+                audioManager.PlaySound("interact");
+                thePlayer.transform.position = teleportTo.transform.position + offset;
+                //play portal sound
+                audioManager.PlaySound("teleport");
+                return;
             }
-            audioManager.PlaySound("noKey");
-            needItemImage.enabled = true;
         }
+        audioManager.PlaySound("noKey");
+        needItemImage.enabled = true;
     }
 
     public void OnEndHover()
     {
-        interactImage.enabled = false;
-        needItemImage.enabled = false;
     }
 }
