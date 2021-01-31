@@ -20,21 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c28c8691-9f2c-4552-a3cd-a54411f2c742" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJam2/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameJam2/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJam2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameJam2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Skyboxes/FS000_Day_02.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Skyboxes/FS000_Day_02.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/KeyController.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/KeyController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Canvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Canvas.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/GreenChest.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/GreenChest.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/GreenTeleporter.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/GreenTeleporter.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/RedKey.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/RedKey.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Erick Test.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Erick Test.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Paul Test.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Paul Test.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ChestOnInteract.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ChestOnInteract.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/KeyController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/KeyController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Movement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Movement.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +106,7 @@
       <workItem from="1611971955419" duration="5363000" />
       <workItem from="1612034049615" duration="7942000" />
       <workItem from="1612046582033" duration="1558000" />
-      <workItem from="1612048172230" duration="8817000" />
+      <workItem from="1612048172230" duration="9591000" />
     </task>
     <servers />
   </component>
