@@ -15,7 +15,6 @@
             </e>
           </e>
         </e>
-        <e p="KeyController.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="AudioManager.cs" t="Include" />
           <e p="CameraController.cs" t="Include" />
@@ -25,6 +24,8 @@
           <e p="IInteractable.cs" t="Include" />
           <e p="InventoryScript.cs" t="Include" />
           <e p="Item.cs" t="Include" />
+          <e p="ItemRotate.cs" t="Include" />
+          <e p="KeyController.cs" t="Include" />
           <e p="Movement.cs" t="Include" />
           <e p="PlayerCollision.cs" t="Include" />
           <e p="PlayerInput.cs" t="Include" />
