@@ -98,7 +98,12 @@ public class Movement : MonoBehaviour
         //Player can jump smaller amounts by letting go of space
         if (isJumping && isGrounded)
         {
-            _audioManager.PlaySound("jump");
+            if (!isLanding)
+            {
+                _audioManager.PlaySound("jump");
+                isLanding = true;
+            }
+
             _velocity.y = Mathf.Sqrt(jumpHeight * -2f * Gravity);
         }
 

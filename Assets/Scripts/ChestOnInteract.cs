@@ -10,7 +10,7 @@ public class ChestOnInteract : MonoBehaviour, IInteractable
     //public Image getItemImage;
     //public Item getItem;
     public Item useItem;
-    public bool interactable = true;
+    //public bool interactable = true;
     public AudioManager audioManager;
     public GameObject getItem;
     private Vector3 _offset = new Vector3(0,1.5f,0);
@@ -37,7 +37,7 @@ public class ChestOnInteract : MonoBehaviour, IInteractable
     {
         for(var i = 0; i < InventoryScript.inventory.Count; i++)
         {
-            if (interactable && InventoryScript.inventory[i].id == useItem.id)
+            if (InventoryScript.inventory[i].id == useItem.id)
             {
                 audioManager.PlaySound("interact");
                 Instantiate(getItem, transform.position + _offset, Quaternion.Euler(0, 90, -90));

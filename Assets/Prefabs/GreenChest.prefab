@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6496585287523421574}
   - component: {fileID: 9064750647769577804}
   - component: {fileID: 7642013792849536454}
+  - component: {fileID: 853638936}
   m_Layer: 0
   m_Name: GreenChest
   m_TagString: Untagged
@@ -26,13 +27,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7407448181113591961}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+  m_LocalRotation: {x: -0.7069834, y: 0, z: 0, w: 0.7072302}
   m_LocalPosition: {x: -6.23, y: 0, z: 0}
   m_LocalScale: {x: 59.171997, y: 59.171997, z: 42.99744}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -89.98, y: 0, z: 0}
 --- !u!33 &6496585287523421574
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -100,3 +101,16 @@ MonoBehaviour:
   interactable: 1
   audioManager: {fileID: 0}
   getItem: {fileID: 919132149155446097, guid: 6f644438bb066b9499e459d372d1b30f, type: 3}
+--- !u!65 &853638936
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7407448181113591961}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.025736295, y: 0.030001085, z: 0.032600004}
+  m_Center: {x: 0.0002318533, y: -0.00000054629254, z: 0.016300002}

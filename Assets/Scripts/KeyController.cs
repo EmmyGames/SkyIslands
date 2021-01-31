@@ -1,18 +1,22 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class KeyController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
+    public Item getItem;
+    public float rotationSpeed;   
     void Update()
     {
-        transform.Rotate(0.25f, 0, 0);
+        transform.Rotate(2f, 0, 0);
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        other.gameObject.GetComponent<AudioManager>().PlaySound("pickup");
+        getItem.AddItem(getItem);
+        //getItem.DisplayItem(getItemImage);
+        Destroy(gameObject);
     }
 }
