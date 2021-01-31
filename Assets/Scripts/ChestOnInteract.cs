@@ -7,10 +7,8 @@ using UnityEngine.UI;
 public class ChestOnInteract : MonoBehaviour, IInteractable
 {
     public Image interactImage;
-    //public Image getItemImage;
-    //public Item getItem;
+    public Image needItemImage;
     public Item useItem;
-    //public bool interactable = true;
     public AudioManager audioManager;
     public GameObject getItem;
     private Vector3 _offset = new Vector3(0,1.5f,0);
@@ -42,7 +40,7 @@ public class ChestOnInteract : MonoBehaviour, IInteractable
                 audioManager.PlaySound("interact");
                 Instantiate(getItem, transform.position + _offset, Quaternion.Euler(0, 90, -90));
                 Destroy(gameObject);
-
+                return;
                 /*audioManager.PlaySound("pickup");
                 getItem.AddItem(getItem);
                 getItem.DisplayItem(getItemImage);
@@ -50,11 +48,15 @@ public class ChestOnInteract : MonoBehaviour, IInteractable
             }
         }
 
+        audioManager.PlaySound("noKey");
+        needItemImage.enabled = true;
+
         //Destroy(gameObject);
     }
 
     public void OnEndHover()
     {
         interactImage.enabled = false;
+        needItemImage.enabled = false;
     }
 }

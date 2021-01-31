@@ -10,6 +10,7 @@ public class AudioManager : MonoBehaviour
     public AudioClip land;
     public AudioClip pickup;
     public AudioClip teleport;
+    public AudioClip noKey;
     
     void Start()
     {
@@ -34,6 +35,9 @@ public class AudioManager : MonoBehaviour
                 break;
             case "teleport":
                 audioSource.PlayOneShot(teleport);
+                break;
+            case "noKey":
+                audioSource.PlayOneShot(noKey);
                 break;
         }
     }

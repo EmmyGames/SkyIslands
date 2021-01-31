@@ -22,11 +22,13 @@
           <e p="CanvasController.cs" t="Include" />
           <e p="ChestOnInteract.cs" t="Include" />
           <e p="DestroyOnInteract.cs" t="Include" />
+          <e p="ForceFieldController.cs" t="Include" />
           <e p="IInteractable.cs" t="Include" />
           <e p="InventoryScript.cs" t="Include" />
           <e p="Item.cs" t="Include" />
           <e p="ItemRotate.cs" t="Include" />
           <e p="KeyController.cs" t="Include" />
+          <e p="MainMenuController.cs" t="Include" />
           <e p="Movement.cs" t="Include" />
           <e p="PlayerCollision.cs" t="Include" />
           <e p="PlayerInput.cs" t="Include" />
