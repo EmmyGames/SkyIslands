@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerInput : MonoBehaviour
 {
@@ -18,12 +19,16 @@ public class PlayerInput : MonoBehaviour
 
     private void GetInput()
     {
+        
         moveX = Input.GetAxisRaw("Horizontal");
         moveZ = Input.GetAxisRaw("Vertical");
         if (playerScript.playerMovement.isGrounded)
             isSprinting = false || Input.GetButton("Sprint");
         
         isJumping = false || Input.GetButton("Jump");
-           
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+        }
     }
 }

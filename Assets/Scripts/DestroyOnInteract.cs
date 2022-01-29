@@ -1,9 +1,18 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class DestroyOnInteract : MonoBehaviour, IInteractable
 {
+    public Image image;
+    public Item item;
+
+    private void Start()
+    {
+        image.enabled = false;
+    }
+    
     public float MaxRange
     {
         get { return maxRange; }
@@ -18,6 +27,8 @@ public class DestroyOnInteract : MonoBehaviour, IInteractable
 
     public void OnInteract()
     {
+        item.AddItem(item);
+        item.DisplayItem(image);
         Destroy(gameObject);
     }
 

@@ -7,6 +7,8 @@ public class PlayerMovement : MonoBehaviour
     public PlayerScript playerScript;
     public Movement movement;
     public Transform lookDirTransform;
+    public Transform respawn;
+    
     
     //Movement
     private Vector3 _direction;
@@ -35,6 +37,10 @@ public class PlayerMovement : MonoBehaviour
 
     private void MovePlayer()
     {
+        if (transform.position.y < -350)
+        {
+            transform.position = respawn.position;
+        }
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
         
         _direction = new Vector3(playerScript.playerInput.moveX, 0f, playerScript.playerInput.moveZ).normalized;

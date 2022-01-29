@@ -20,9 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c28c8691-9f2c-4552-a3cd-a54411f2c742" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Erick Test.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Erick Test.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJam2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameJam2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Skyboxes/FS000_Day_02.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Skyboxes/FS000_Day_02.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/BlueTeleporter.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/BlueTeleporter.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/GreenTeleporter.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/GreenTeleporter.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/RedTeleporter.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/RedTeleporter.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Paul Test.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Paul Test.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PortalController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PortalController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,22 +38,37 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Item.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraRaycasting.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/InventoryScript.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerCollision.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Movement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerInput.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/IInteractable.cs" />
         <option value="$PROJECT_DIR$/Assets/DestroyOnInteract.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/DestroyOnInteract.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraRaycasting.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Item.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DestroyOnInteract.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BlueChestInteract.cs" />
+        <option value="$PROJECT_DIR$/Assets/PortalController.cs" />
+        <option value="$PROJECT_DIR$/Assets/KeyController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Movement.cs" />
+        <option value="$PROJECT_DIR$/Assets/CanvasController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CanvasController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/KeyController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InventoryScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MainMenuController.cs" />
+        <option value="$PROJECT_DIR$/Assets/ForceFieldController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ChestOnInteract.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AudioManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PortalController.cs" />
       </list>
     </option>
   </component>
@@ -64,6 +84,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$USER_HOME$/Desktop/GameJam2\GameJam2.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\emera\Desktop\GameJam2" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
@@ -92,6 +120,9 @@
       <option name="presentableId" value="Default" />
       <updated>1611971945122</updated>
       <workItem from="1611971955419" duration="5363000" />
+      <workItem from="1612034049615" duration="7942000" />
+      <workItem from="1612046582033" duration="1558000" />
+      <workItem from="1612048172230" duration="13887000" />
     </task>
     <servers />
   </component>
@@ -110,6 +141,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
@@ -119,5 +151,9 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1108" y="374" key="RiderGenerateDialog/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1611976912555" />
+    <state x="575" y="153" width="1102" height="1361" key="dock-window-1" timestamp="1612066032736">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="575" y="153" width="1102" height="1361" key="dock-window-1/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1612066032736" />
   </component>
 </project>
